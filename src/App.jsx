@@ -4,7 +4,6 @@ import { AuthProvider, useAuth } from "./context/AuthContext";
 import Login from "./components/Login";
 import Home from "./components/Home";
 
-// dummy commit to check if git is working
 const PrivateRoute = ({ children }) => {
   const { user, loading } = useAuth();
 
